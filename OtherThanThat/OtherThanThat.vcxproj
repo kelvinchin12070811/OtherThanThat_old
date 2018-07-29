@@ -115,12 +115,52 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\OtherThanThat.cpp" />
+    <ClCompile Include="src\webpage_viewer\WebPageViewer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="src\OtherThanThat.hpp" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="OtherThanThat.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\allocators.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\document.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\encodedstream.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\encodings.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\error\en.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\error\error.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\filereadstream.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\filewritestream.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\fwd.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\itoa.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\meta.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\pow10.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\regex.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\stack.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\strtod.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\internal\swap.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\memorybuffer.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\memorystream.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\pointer.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\prettywriter.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\rapidjson.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\rapidjson_foregion.hpp" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\reader.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\schema.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\stream.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\stringbuffer.h" />
+    <ClInclude Include="src\libraries\rapidjson\rapidjson\writer.h" />
+    <ClInclude Include="src\webpage_viewer\WebPageViewer.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
