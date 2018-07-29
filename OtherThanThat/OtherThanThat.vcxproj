@@ -113,6 +113,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Config.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\OtherThanThat.cpp" />
     <ClCompile Include="src\webpage_viewer\WebPageViewer.cpp" />
@@ -124,6 +125,7 @@
     <QtRcc Include="OtherThanThat.qrc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Config.hpp" />
     <ClInclude Include="src\libraries\rapidjson\rapidjson\allocators.h" />
     <ClInclude Include="src\libraries\rapidjson\rapidjson\document.h" />
     <ClInclude Include="src\libraries\rapidjson\rapidjson\encodedstream.h" />

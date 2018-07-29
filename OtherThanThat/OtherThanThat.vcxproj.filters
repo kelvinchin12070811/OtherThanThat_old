@@ -39,6 +39,9 @@
     <ClCompile Include="src\webpage_viewer\WebPageViewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="OtherThanThat.qrc">
@@ -160,6 +163,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\webpage_viewer\WebPageViewer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -10,5 +10,9 @@ public:
 
 protected:
 	QWebEngineView* createWindow(QWebEnginePage::WebWindowType type) override;
+private:
+	void connectSignals();
+private slots:
+	void on_zoomFactorChecker();
 };
 
